@@ -2,13 +2,12 @@ package main
 
 import (
 	"examples/database"
+	"github.com/kataras/iris/v12"
 	"github.com/rinatusmanov/gorestfull/drivers/iris_driver"
 	"github.com/rinatusmanov/gorestfull/maker"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"os"
-
-	"github.com/kataras/iris/v12"
 )
 
 func main() {
