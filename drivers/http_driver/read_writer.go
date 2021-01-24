@@ -1,7 +1,7 @@
 package http_driver
 
 import (
-	"github.com/gorestfull/maker"
+	"github.com/rinatusmanov/gorestfull/maker"
 	"github.com/rinatusmanov/gorestfull/types"
 	"io/ioutil"
 	"net/http"

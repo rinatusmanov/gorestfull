@@ -3,7 +3,7 @@ package gin_driver
 import (
 	"errors"
 	"fmt"
-	"github.com/gorestfull/drivers/http_driver"
+	"github.com/rinatusmanov/gorestfull/drivers/http_driver"
 	"github.com/rinatusmanov/gorestfull/types"
 	"net/http"
 	"reflect"

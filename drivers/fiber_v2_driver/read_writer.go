@@ -1,11 +1,10 @@
 package fiber_v2_driver
 
 import (
-	"github.com/gorestfull/maker"
+	"github.com/rinatusmanov/gorestfull/maker"
 	"github.com/rinatusmanov/gorestfull/types"
 	"net/url"
 )
-
 
 type readWriter struct {
 	fiber    IFiberCtx
