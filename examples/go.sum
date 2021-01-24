@@ -240,6 +240,8 @@ github.com/rinatusmanov/crud v0.0.11 h1:Zro4SEKDz0tjHG85ZyhAArrFO0lC3PleC+eDG+ET
 github.com/rinatusmanov/crud v0.0.11/go.mod h1:5pS+caLq2Ncs929uAwZHmiOLOLuvB52txLtQqxTqOLo=
 github.com/rinatusmanov/gorestfull v0.0.1 h1:tKm6cFTxfo3CC7IuoJPW3OtRkZjQzErwb3dOdKcpCps=
 github.com/rinatusmanov/gorestfull v0.0.1/go.mod h1:LeUHkSOLcDiS0k0h0PIgh6xOjm2UMm2eYn3aNHjK318=
+github.com/rinatusmanov/gorestfull v0.0.2 h1:TUxAXvsNtVLnG6BBwU7l+WTDG6bAq5JvPQNCxsf29XA=
+github.com/rinatusmanov/gorestfull v0.0.2/go.mod h1:LeUHkSOLcDiS0k0h0PIgh6xOjm2UMm2eYn3aNHjK318=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
 github.com/rs/xid v1.2.1/go.mod h1:+uKXf+4Djp6Md1KODXJxgGQPKngRmWyn10oCKFzNHOQ=
 github.com/rs/zerolog v1.13.0/go.mod h1:YbFCdg8HfsridGWAh22vktObvhZbQsZXe4/zB0OKkWU=

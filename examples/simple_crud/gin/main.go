@@ -2,8 +2,8 @@ package main
 
 import (
 	"examples/database"
-	"github.com/rinatusmanov/crud"
-	"github.com/rinatusmanov/crud/drivers/gin_driver"
+	"github.com/rinatusmanov/gorestfull/drivers/gin_driver"
+	"github.com/rinatusmanov/gorestfull/maker"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"os"
@@ -24,7 +24,7 @@ func main() {
 	dbGlobal.
 		AutoMigrate(&database.Log{})
 
-	cr, _ := crud.Maker(gin_driver.NewDriver(r), dbGlobal)
+	cr, _ := maker.Maker(gin_driver.NewDriver(r), dbGlobal)
 	cr.Crud(database.Log{})
 	panic(r.Run(":3000"))
 }

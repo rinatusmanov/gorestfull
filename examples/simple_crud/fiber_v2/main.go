@@ -2,12 +2,13 @@ package main
 
 import (
 	"examples/database"
-	"github.com/gofiber/fiber/v2"
 	"github.com/rinatusmanov/gorestfull/drivers/fiber_v2_driver"
 	"github.com/rinatusmanov/gorestfull/maker"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"os"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
